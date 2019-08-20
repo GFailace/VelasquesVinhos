@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;    
+    box-sizing: border-box;
+}
+header{
+    height: 50px;
+    text-align: center;
+    background: #3e0f0e;
+    color: #FFF;
+}
+.root{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+#listaClientes{
+    list-style: none;
+}
+#maiorCompra{
+    list-style: none;
+}
+.table{
+    width: 100%;
+}
+.border{
+    border: 1px, solid #999;
+    border-radius: 4px;
+    padding: 20px;
+}
